@@ -1,12 +1,9 @@
 [package]
-name = "Rust"
+name = "guessing_game"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
-[[bin]]
-name = "Rust"
-path = "main.rs"
+rand = "0.8.5"
